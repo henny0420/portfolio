@@ -1,0 +1,264 @@
+.section-contact{
+    height: calc(110dvh - 64.3px);
+    width: 99dvw;
+     background-color: var(--primary-color);
+    position: relative;
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.back-11{
+    position: absolute;
+    background-color: rgb(198, 12, 12);
+    height: 180px;
+    width: 180px;
+    top:0;
+    left: 0;
+    border-radius: 50%;
+    opacity: 0.75;
+    filter: blur(131.707px);
+}
+
+.back-2{
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    background-color: yellow;
+    border-radius: 50%;
+    height: 260px;
+    width: 260px;
+    opacity: 0.75;
+    filter: blur(180.05px);
+}
+
+.back-3{
+    position: absolute;
+    top: 700px;
+    left: 500px;
+    background-color: rgb(247, 128, 25);
+    height: 100px;
+    width: 100px;
+    border-radius: 50% ;
+    opacity: 0.75;
+    filter: blur(150.123px);
+}
+
+.back-4{
+    position: absolute;
+    top: 50px;
+    right:30px;
+    background-color: rgb(22, 213, 230);
+    border-radius: 50%;
+    /* opacity: 0.30; */
+    height: 80px;
+    width: 80px;
+    filter: blur(90.23px);
+}
+
+.back-12{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    background-color: rgb(66, 227, 7);
+    border-radius: 50%;
+    /* opacity: 0.70; */
+    height: 230px;
+    width: 230px;
+    filter: blur(180.23px);
+}
+
+.back-7{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(190, 244, 12);
+    left: 200px;
+    bottom: 0;
+    border-radius: 50%;
+    opacity: 0.9;
+    filter: blur(100.10px);
+}
+
+.section-contact h1{
+    font-size: 40px;
+    color: yellow;
+    text-align: center;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* gap: 0px; */
+    padding: 50px 50px;
+    align-items: center;
+}
+
+.icon{
+    background-color: rgba(237, 250, 3, 0.167); 
+    backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  /* padding: 10px; */
+  border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+}
+
+.icon svg{
+    height: 40px;
+    width: 40px;
+    color: yellow;
+}
+
+.item-detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.icon-text{
+    color: white;
+}
+
+.icon-text span{
+    display: block;
+}
+
+.contact-item input{
+    background-color: rgba(237, 250, 3, 0.167); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid yellow;
+    border-radius: 5px;
+    display: block;
+    margin:  0 0 30px 0;
+    height: 50px;
+    width: 500px;
+    color: yellow;
+    outline: yellow;
+    padding: 0 0 0 20px;
+
+}
+
+.contact-item input:hover{
+    outline: yellow;
+    border: 1px solid yellow;
+}
+
+.contact-item textarea{
+    background-color: rgba(237, 250, 3, 0.167); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid yellow;
+    border-radius: 5px;
+    display: block;
+    width: 500px;
+    color: yellow;
+    outline: yellow;
+    height:150px;
+}
+
+.contact-item textarea:hover{
+    outline: yellow;
+    border: 1px solid yellow;
+}
+
+.contact-item button{
+    width: 500px;
+    /* background-color: yellow; */
+    /* border: 1px solid rgba(237, 250, 3, 0.167); 
+    color:  rgb(80, 84, 6); 
+    height: 50px; */
+    margin-top: 40px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 18px;
+        transition: transform 0.2s ease-in-out;
+
+}
+.button1 {
+  margin: 30px 0 0 0;
+  position: relative;
+  background-color: transparent;
+  color: #e8e8e8;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 150px;
+  height: 60px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.button1::before {
+  content: "Submit";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(135deg,#7b4397,#dc2430 );
+  transform: translate(0%,90%);
+  z-index: 99;
+  position: relative;
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.button1::after {
+  content: "Submit";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:yellow;
+  color: #7b4397;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transform-origin: top;
+  transform: translate(0%,-100%);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.button1:hover::before {
+  transform: translate(0%,0%);
+}
+
+.button1:hover::after {
+  transform: translate(0%,-200%);
+}
+
+.button1:focus {
+  outline: none;
+}
+
+.button1:active {
+  scale: 0.95;
+}
+
+.contact-item label{
+    color: white;
+}
+
+.contact-item button:active {
+  transform: scale(0.95); /* shrink while pressing */
+}
+
+.sec{
+       background-color: rgba(237, 250, 3, 0.167); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 80px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}

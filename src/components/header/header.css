@@ -1,0 +1,48 @@
+header{
+    background-color:var(--primary-color);
+
+    color: white;
+    position: relative;
+    top: 0;
+    position: sticky;
+    left: 0;
+    z-index: 999;
+}
+
+.section-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-name{
+    display: flex;
+    align-items: center;
+}
+
+.my-name :first-child{
+    color: yellow;
+    font-weight: 900;
+}
+
+.my-name a{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.elements{
+    cursor: pointer;
+    display: flex;
+    align-items:  center;
+    gap: 60px;
+
+}
+
+.elements a{
+    font-size: 20px;
+}
+
+.elements a:hover{
+    color: yellow;
+}

@@ -1,0 +1,193 @@
+.skill-section{
+    height: calc(110dvh - 64.8px);
+    width: 99dvw;
+    background-color: var(--primary-color);
+    position: relative;
+    overflow: hidden;
+    padding-top: 64px;
+}
+.back-10{
+    position: absolute;
+    background-color: rgb(137, 38, 164);
+    height: 180px;
+    width: 180px;
+    bottom: 80px;
+    right: 60px;
+    border-radius: 50%;
+    opacity: 0.75;
+    filter: blur(131.707px);
+}
+
+.back-2{
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    background-color: yellow;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    opacity: 0.75;
+    filter: blur(80.05px);
+}
+
+.back-3{
+    position: absolute;
+    top: 700px;
+    left: 500px;
+    background-color: rgb(247, 128, 25);
+    height: 100px;
+    width: 100px;
+    border-radius: 50% ;
+    opacity: 0.75;
+    filter: blur(150.123px);
+}
+
+.back-4{
+    position: absolute;
+    top: 50px;
+    right:30px;
+    background-color: rgb(22, 213, 230);
+    border-radius: 50%;
+    /* opacity: 0.30; */
+    height: 80px;
+    width: 80px;
+    filter: blur(90.23px);
+}
+
+.back-8{
+    position: absolute;
+    top: 25%;
+    left:200px;
+    background-color: rgb(215, 149, 102);
+    border-radius: 50%;
+    /* opacity: 0.70; */
+    height: 230px;
+    width: 230px;
+    filter: blur(180.23px);
+}
+
+.back-7{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(190, 244, 12);
+    left: 200px;
+    bottom: 0;
+    border-radius: 50%;
+    opacity: 0.9;
+    filter: blur(100.10px);
+}
+
+.skill-text h1{
+    text-align: center;
+    color: yellow;
+    font-size: 40px;
+    margin: 0 0 60px 0;
+}
+
+.skill-cards{
+    padding: 40px 0;
+    max-width: 1300px;
+    margin: 0 auto;
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 50px;
+}
+
+.card {
+    flex-basis: calc(20% - 50px);
+  position: relative;
+  width: 220px;
+  height: 240px;
+  background: yellow;
+   background-color: rgba(237, 250, 3, 0.167); 
+    backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.card::before,
+.card::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: yellow;
+  transition: all 0.5s;
+
+}
+
+.card::before {
+  top: 0;
+  right: -50px;
+  border-radius: 0 15px 0 100%;
+}
+
+.card::after {
+  bottom: 0;
+  left: -30px;
+  border-radius: 0 100%  0 15px;
+}
+
+.card:hover::before,
+.card:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.card:hover:after {
+  content: '';
+}
+
+.card img{
+    position: absolute;
+    top: 20%;
+    z-index: 99;
+    height: 80px;
+    width: 80px;
+}
+
+.card p{
+    color: yellow;
+    z-index: 100;
+    position: absolute;
+    bottom: 9%;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.card:hover p{
+    color: black;
+}
+
+.card .tailwind{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.card .js{
+    height: 120px;
+    width: 100px;
+    margin-top: -20px;
+}
