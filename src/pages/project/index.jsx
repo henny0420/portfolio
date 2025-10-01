@@ -3,6 +3,7 @@ import './project.css';
 import todo from '../../assets/image/todo1.png'
 import greeny from '../../assets/image/greeny.png'
 import book from '../../assets/image/book.png'
+import pass from '../../assets/image/pass.png'
 
 export default function Project() {
     return (
@@ -55,10 +56,10 @@ export default function Project() {
                                         <li>Shopping cart with add, update, and remove functionality.</li>
                                         <li>Admin dashboard to manage products, categories, users, and orders.</li>
                                     </ul>
-                                    <a href="https://to-do-list-h20.vercel.app" target="_blank">
+                                    <a href="https://greeny-frontend.vercel.app/" target="_blank">
                                             <button class="card__button">Live Demo</button>
                                     </a>
-                                    <a href="https://github.com/henny0420/to-do-list" target="_blank">
+                                    <a href="https://github.com/henny0420/greeny-frontend" target="_blank">
                                     <button class="card__button secondary">Source Code</button>
                                     </a>
                                 </div>
@@ -83,6 +84,31 @@ export default function Project() {
                                             <button class="card__button">Live Demo</button>
                                     </a>
                                     <a href="https://github.com/henny0420/online-bookstore" target="_blank">
+                                    <button class="card__button secondary">Source Code</button>
+                                    </a>
+                                </div>
+                            </div>
+                            <p className="hover">*Hover over the card for the details</p>
+                              </div>
+                            <div className="card-item">
+                            <div class="card-project">
+                                <img src={pass} alt="to-do-list"></img>
+                                
+                                <div class="card__content">
+                                    <p class="card__title">Password Generator</p>
+                                    <p class="card__description">It's a simple yet powerful tool built with React and Vite that
+                                         creates secure and customizable passwords instantly. Users can adjust the password length and choose whether to include
+                                          numbers and  
+                                        special characters</p>
+                                         <ul>
+                                            <li>Generate random, secure passwords instantly</li>
+                                            <li>Adjustable password length (slider control)</li>
+                                            <li>Built using React, Vite, and Tailwind CSS</li>
+                                         </ul>
+                                    <a href="https://password-generator-h20.vercel.app" target="_blank">
+                                            <button class="card__button">Live Demo</button>
+                                    </a>
+                                    <a href="https://github.com/henny0420/password_generator" target="_blank">
                                     <button class="card__button secondary">Source Code</button>
                                     </a>
                                 </div>

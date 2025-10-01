@@ -21,8 +21,8 @@ export default function About() {
                             </div>
                             <div className="discription">
                                 <h2>About Me</h2>
-                                <p>I am a third-year Bachelor of Computer Applications student and an aspiring Front-End Developer with a deep passion for creating intuitive, responsive, and engaging user experiences. <br></br><br></br>
-                                    Through my coursework and personal projects, I have gained hands-on experience building applications with modern web technologies, primarily focusing on React, JavaScript (ES6+), HTML5, and CSS3. <br></br>I am a quick learner, a collaborative team player, and I am always excited to tackle new challenges.
+                                <p>I am a third-year Bachelor of Computer Applications student  and an aspiring  Front-End  Developer with a deep passion for creating intuitive, responsive, and engaging user experiences. <br></br><br></br>
+                                    Through my coursework and personal projects, I have gained hands-on experience building applications with modern web technologies, primarily focusing on React, JavaScript (ES6+), HTML5, and CSS3. <br></br><br></br>I am a quick learner, a collaborative team player, and I am always excited to tackle new challenges.
 
                                     I am actively seeking a front-end internship where I can contribute my skills to a creative team, learn from experienced mentors, and continue to grow as a developer."</p>
 
