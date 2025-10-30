@@ -8,14 +8,14 @@ export default function About() {
             <div className="section-about" id="about">
                 <div className="container">
                     <div className="back-1"></div>
-                    <div className="back-2"></div>
+                    <div className="back-22"></div>
                     <div className="back-3"></div>
                     <div className="back-4"></div>
-                    <div className="back-5"></div>
+                    <div className="back-55"></div>
                     <div className="back-6"></div>
                     <div className="about-me">
 
-                        <div className="layer">
+                        <div className="layer animate__animated animate__fadeInUpBig wow"  data-wow-delay="0.3s" data-wow-offset="60">
                             <div className="bitmoji">
                                 <img src={bitmoji} alt="bitmoji"></img>
                             </div>

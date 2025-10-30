@@ -1,5 +1,5 @@
 .skill-section{
-    height: calc(110dvh - 64.8px);
+    height: calc(165dvh - 64.8px);
     width: 99dvw;
     background-color: var(--primary-color);
     position: relative;
@@ -18,7 +18,7 @@
     filter: blur(131.707px);
 }
 
-.back-2{
+.back-52{
     position: absolute;
     top: 100px;
     left: 800px;
@@ -28,6 +28,17 @@
     width: 60px;
     opacity: 0.75;
     filter: blur(80.05px);
+}
+.back-51{
+    position: absolute;
+    top: 40%;
+    right:190px;
+    background-color: rgb(240, 101, 8);
+    border-radius: 50%;
+    opacity: 0.50;
+    height: 380px;
+    width: 380px;
+    filter: blur(190.23px);
 }
 
 .back-3{
@@ -84,7 +95,10 @@
     font-size: 40px;
     margin: 0 0 60px 0;
 }
-
+.skill-text h2{
+  color: yellow;
+  margin: 20px 0 0 0 ;
+}
 .skill-cards{
     padding: 40px 0;
     max-width: 1300px;
@@ -99,10 +113,10 @@
 }
 
 .card {
-    flex-basis: calc(20% - 50px);
+    flex-basis: calc(18% - 50px);
   position: relative;
-  width: 220px;
-  height: 240px;
+  width: 180px;
+  height: 180px;
   background: yellow;
    background-color: rgba(237, 250, 3, 0.167); 
     backdrop-filter: blur(10px);
@@ -190,4 +204,7 @@
     height: 120px;
     width: 100px;
     margin-top: -20px;
+}
+.card .next{
+  background-color: white;
 }

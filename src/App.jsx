@@ -8,6 +8,7 @@ import About from './pages/about'
 import Skills from './pages/skill'
 import Project from './pages/project'
 import Contact from './pages/contact'
+import 'animate.css';
 
 function App() {
   const [count, setCount] = useState(0)

@@ -1,6 +1,6 @@
 import React from "react";
 import './home.css';
-import myimage from '../../assets/image/myimage.png'
+import myimage from '../../assets/image/me.png'
 import Typewriter from 'typewriter-effect';
 import html from '../../assets/image/html.png'
 
@@ -10,18 +10,18 @@ export default function Home() {
             <div className="section-home" id="home">
                 <div className="container">
                 <div className="back-1"></div>
-                <div className="back-2"></div>
+                <div className="back-30"></div>
                 <div className="back-3"></div>
                 <div className="back-4"></div>
                 <div className="back-5"></div>
                 <div className="back-7"></div>
 
 
-                <div className="my-image">
-                    <img src={myimage} alt="my-image"></img>
+                <div className="my-image ">
+                    <img src={myimage} alt="my-image" className="animate__animated animate__zoomIn wow" data-wow-offset="60" data-wow-duration="2s"></img>
                 </div>
 
-                <div className="text">
+                <div className="text animate__animated animate__fadeInDown wow "  data-wow-delay="0.3s">
                     <h3>HII , I'm</h3>
                     <h1>
                     <Typewriter

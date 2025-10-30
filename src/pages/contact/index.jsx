@@ -21,7 +21,7 @@ export default function Contact() {
 
 
                         <div className="back-11"></div>
-                        <div className="back-2"></div>
+                        <div className="back-32"></div>
                         <div className="back-3"></div>
                         <div className="back-4"></div>
                         <div className="back-12"></div>
@@ -85,7 +85,7 @@ export default function Contact() {
                                 </div>
 
                             </div>
-                            <div className="contact-item sec">
+                            <div className="contact-item sec animate__animated animate__zoomIn wow">
                                 {/* <input placeholder="Your Name"></input>
                                 <input placeholder="Contact no."></input>
                                 <textarea placeholder="leave your message here"></textarea>

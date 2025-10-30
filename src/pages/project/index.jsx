@@ -13,7 +13,7 @@ export default function Project() {
                 <div className="container">
                     <div className="projects">
                         <div className="back-11"></div>
-                        <div className="back-2"></div>
+                        <div className="back-42"></div>
                         <div className="back-3"></div>
                         <div className="back-4"></div>
                         <div className="back-12"></div>
@@ -23,7 +23,7 @@ export default function Project() {
                     <div className="project-text">
                         <h1>My Projects</h1>
                         <div className="cards-p">
-                            <div className="card-item">
+                            <div className="card-item animate__animated animate__fadeInLeftBig wow"  data-wow-delay="0.2s">
                             <div class="card-project">
                                 <img src={todo} alt="to-do-list"></img>
                                 
@@ -42,7 +42,7 @@ export default function Project() {
                             </div>
                             <p className="hover">*Hover over the card for the details</p>
                               </div>
-                            <div className="card-item">
+                            <div className="card-item animate__animated animate__fadeInRightBig wow"  data-wow-delay="0.2s">
                             <div class="card-project">
                                 <img src={greeny} alt="to-do-list"></img>
                                 
@@ -66,7 +66,7 @@ export default function Project() {
                             </div>
                             <p className="hover">*Hover over the card for the details</p>
                               </div>
-                            <div className="card-item">
+                            <div className="card-item  animate__animated animate__fadeInLeftBig wow"  data-wow-delay="0.2s">
                             <div class="card-project">
                                 <img src={book} alt="to-do-list"></img>
                                 
@@ -90,7 +90,7 @@ export default function Project() {
                             </div>
                             <p className="hover">*Hover over the card for the details</p>
                               </div>
-                            <div className="card-item">
+                            <div className="card-item  animate__animated animate__fadeInRightBig wow"  data-wow-delay="0.2s">
                             <div class="card-project">
                                 <img src={pass} alt="to-do-list"></img>
                                 
